@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
+import { LeafIcon } from "lucide-react";
 
 const Footer = () => {
   const [email, setEmail] = useState("");
@@ -12,15 +13,14 @@ const Footer = () => {
   };
 
   return (
-    <footer className="bg-green-800 text-white">
+    <footer className="bg-gradient-to-br from-zinc-900 via-zinc-800 to-cyan-900 text-white">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Logo and About */}
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
               <div className="w-8 h-8 bg-primary-foreground/20 rounded-full flex items-center justify-center">
-                <i className="fas fa-leaf text-primary-foreground text-sm"></i>
-              </div>
+                  <LeafIcon className="text-white w-4 h-4" />              </div>
               <span className="text-xl font-bold">LeafMind</span>
             </div>
             <p className="text-primary-foreground/80 mb-6 max-w-md">
@@ -90,7 +90,7 @@ const Footer = () => {
               />
               <button
                 type="submit"
-                className="w-full bg-accent text-accent-foreground px-4 py-2 rounded-md hover:bg-accent-glow transition-colors font-medium"
+                className="bg-gradient-to-r from-cyan-500 to-cyan-600 hover:from-cyan-400 hover:to-cyan-500 text-white px-4 py-2 rounded-md transition-colors font-medium"
               >
                 Subscribe
               </button>
