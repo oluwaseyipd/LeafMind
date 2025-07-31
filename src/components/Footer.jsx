@@ -20,7 +20,9 @@ const Footer = () => {
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
               <div className="w-8 h-8 bg-primary-foreground/20 rounded-full flex items-center justify-center">
-                  <LeafIcon className="text-white w-4 h-4" />              </div>
+                              <div className="w-8 h-8 bg-gradient-to-br from-cyan-600 to-cyan-700 rounded-full flex items-center justify-center shadow-lg">
+              <LeafIcon className="text-white w-4 h-4" />
+            </div>           </div>
               <span className="text-xl font-bold">LeafMind</span>
             </div>
             <p className="text-primary-foreground/80 mb-6 max-w-md">
@@ -28,21 +30,21 @@ const Footer = () => {
             </p>
             <div className="flex space-x-4">
               <a
-                href="https://twitter.com/leafmind"
+                href="https://twitter.com/"
                 className="text-primary-foreground/60 hover:text-primary-foreground transition-colors"
                 aria-label="Twitter"
               >
                 <i className="fab fa-twitter text-xl"></i>
               </a>
               <a
-                href="https://linkedin.com/company/leafmind"
+                href="https://linkedin.com/"
                 className="text-primary-foreground/60 hover:text-primary-foreground transition-colors"
                 aria-label="LinkedIn"
               >
                 <i className="fab fa-linkedin text-xl"></i>
               </a>
               <a
-                href="https://instagram.com/leafmind"
+                href="https://instagram.com/"
                 className="text-primary-foreground/60 hover:text-primary-foreground transition-colors"
                 aria-label="Instagram"
               >

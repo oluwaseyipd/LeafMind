@@ -3,6 +3,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./index.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import Index from "./pages/Index";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
@@ -12,7 +14,10 @@ function App() {
           <Navbar />
 
           <main className="flex-1">
-            <Routes></Routes>
+            <Routes>
+              <Route path="/" element={<Index />} />
+               <Route path="/contact" element={<Contact />} />
+            </Routes>
           </main>
           <Footer />
         </div>
