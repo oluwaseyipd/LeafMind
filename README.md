@@ -83,14 +83,14 @@ VITE_GOOGLE_BOOKS_API_KEY=your_api_key_here
 
 ## 📸 Screenshots
 
-### 🏠 Home Page
-*A clean landing page introducing the app.*
+### Home Page
+![Homepage Hero](public/Screenshot_1.png)
 
-### 📚 Books Page
-*Search and filter books with categories.*
+### Books Page
+![Books Page](public/Screenshot_2.png)
 
-### 📖 Book Details Page
-*View detailed information about a selected book.*
+### Book Details Page
+![Book Detail](public/Screenshot_3.png)
 
 ## 👩‍💻 Author
 
