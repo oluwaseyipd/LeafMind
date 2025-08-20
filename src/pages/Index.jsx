@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Search, Book, Mail, Brain, Languages, Heart, Users } from "lucide-react";
 import heroImage from "../assets/hero-books.jpg"; 

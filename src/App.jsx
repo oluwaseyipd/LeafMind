@@ -7,6 +7,7 @@ import Index from "./pages/Index";
 import Contact from "./pages/Contact";
 import Books from "./pages/Books";
 import BookDetails from "./pages/BookDetails";
+import NotFound from "./pages/NotFound";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
               <Route path="/books" element={<Books />} />
               <Route path="/books/:id" element={<BookDetails />} />
               <Route path="/contact" element={<Contact />} />
+              <Route path="*" element={<NotFound />} />              
             </Routes>
           </main>
           <Footer />
